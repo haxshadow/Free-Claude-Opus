@@ -17,7 +17,7 @@ To configure Claude Code with the **Opus 4.6** model via the agent router, execu
 npm install -g @anthropic-ai/claude-code
 
 # Set Environment Variables for Custom Routing
-setx ANTHROPIC_BASE_URL "[https://agentrouter.org/](https://agentrouter.org/)"
+setx ANTHROPIC_BASE_URL "https://agentrouter.org/"
 setx ANTHROPIC_AUTH_TOKEN "sk-KUByfxxxxxxxxxxxxxxxxxxxxxxx"
 setx ANTHROPIC_MODEL "claude-opus-4-6"
 setx CLAUDE_CODE_USE_AUTH_TOKEN "true"
