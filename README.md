@@ -27,7 +27,7 @@ Select the instructions for your operating system to configure the environment v
 Run the following commands to set the environment variables persistently:
 
 ```powershell
-setx ANTHROPIC_BASE_URL "https://agentrouter.org/"
+setx ANTHROPIC_BASE_URL "https://agentrouter.org"
 setx ANTHROPIC_AUTH_TOKEN "sk-KUByfxxxxxxxxxxxxxxxxxxxxxxx"
 setx ANTHROPIC_MODEL "claude-opus-4-6"
 setx CLAUDE_CODE_USE_AUTH_TOKEN "true"
@@ -39,7 +39,7 @@ To make the variables persistent, append them to your shell configuration file (
 
 ```bash
 # For Zsh (Default on Kali/Ubuntu):
-echo 'export ANTHROPIC_BASE_URL "https://agentrouter.org/"' >> ~/.zshrc
+echo 'export ANTHROPIC_BASE_URL="https://agentrouter.org"' >> ~/.zshrc
 echo 'export ANTHROPIC_AUTH_TOKEN="sk-KUByfxxxxxxxxxxxxxxxxxxxxxxx"' >> ~/.zshrc
 echo 'export ANTHROPIC_MODEL="claude-opus-4-6"' >> ~/.zshrc
 echo 'export CLAUDE_CODE_USE_AUTH_TOKEN="true"' >> ~/.zshrc
@@ -53,7 +53,7 @@ source ~/.zshrc
 Run these commands in your terminal to configure your Zsh environment:
 
 ```bash
-echo 'export ANTHROPIC_BASE_URL "https://agentrouter.org/"' >> ~/.zshrc
+echo 'export ANTHROPIC_BASE_URL="https://agentrouter.org"' >> ~/.zshrc
 echo 'export ANTHROPIC_AUTH_TOKEN="sk-KUByfxxxxxxxxxxxxxxxxxxxxxxx"' >> ~/.zshrc
 echo 'export ANTHROPIC_MODEL="claude-opus-4-6"' >> ~/.zshrc
 echo 'export CLAUDE_CODE_USE_AUTH_TOKEN="true"' >> ~/.zshrc
